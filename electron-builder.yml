@@ -1,0 +1,12 @@
+appId: com.eazyreview.admin
+productName: EazyReview Admin
+copyright: Copyright © 2023 Tyson Hu
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
